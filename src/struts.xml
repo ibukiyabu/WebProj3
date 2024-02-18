@@ -35,5 +35,13 @@ method="execute">
 
 </action>
 
+<action name="InquiryAction"
+class="com.diworksdev.webproj3.action.InquiryAction"
+method="execute">
+
+<result name="success">inquiry.jsp</result>
+
+</action>
+
 </package>
 </struts>
